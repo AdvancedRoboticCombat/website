@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com/usc.arc/" target='_blank' rel='noreferrer'>
                     <img src={insta} alt = "instagram" className='socials'></img>
                 </a>
-                <a href="https://github.com/pwang1092/Battlebots" target='_blank' rel='noreferrer'>
+                <a href="https://github.com/orgs/AdvancedRoboticCombat/repositories" target='_blank' rel='noreferrer'>
                     <img src={github} alt = "github" className='socials'></img>
                 </a>
                 {/*<a href="" target='_blank' rel='noreferrer'>
