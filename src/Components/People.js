@@ -43,7 +43,7 @@ const People = () => {
                                 </a>
                             </ul>
                             <ul className='bullet'>
-                                <b>Secretary: </b>
+                                <b>Technical Director: </b>
                                 Aaron Yang
                             </ul>
                             <ul className='bullet'>
