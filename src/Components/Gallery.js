@@ -11,6 +11,24 @@ import './Gallery.css';
 import dataSlider from './dataSlider';
 import BtnSlider from './BtnSlider'; 
 
+function VideoContainer({ isActive, src, type }) {
+    const { useState, useRef, useEffect } = React; 
+    const ref = useRef();
+
+    useEffect(() => {
+        if (!ref.current) return;
+        if (!isActive) {
+        ref.current.pause();
+        }
+    }, [isActive]);
+
+    return (
+        <video controls ref={ref}>
+        <source src={src} type={type} />
+        </video>
+    );
+}
+
 const Gallery = () => {
     const [slideIndex, setSlideIndex] = useState(1);
 
@@ -47,9 +65,10 @@ const Gallery = () => {
                                 {obj.type ? 
                                     (<img src={obj.img}/> 
                                     ) : 
-                                    (<video controls>
+                                    (/*<video controls>
                                         <source src={obj.vid} type="video/mp4"/>
-                                    </video>)
+                                    </video>*/
+                                    <VideoContainer src={obj.vid} type="video/mp4" isActive={slideIndex === index + 1} />)
                                 }
                             </div>
                         )
@@ -83,7 +102,3 @@ const Gallery = () => {
 }
 
 export default Gallery; 
-
-{/*<video width="750" height="500" controls >
-<source src={b4la} type="video/mp4"/>
-</video>*/}
