@@ -28,7 +28,7 @@ const Contact = () => {
             {/* Contact form to send me email */}
             <div id="contact">
                 <h1 className="contactPageTitle">Contact Us</h1>
-                <span className="contactDesc">Please fill out the form if you have any inquiries!</span>
+                <span className="contactDesc">Please fill out the form if you any inquiries!</span>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
                     <input type="text" className="name" placeholder='Your Name' name='from_name'></input>
                     <input type="email" className="email" placeholder='Your Email' name='from_email'></input>

@@ -9,7 +9,7 @@ import github from "../Images/github2.png";
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className='email'>Email: dqle@usc.edu </div>
+            <span className="contact">Email: dqle@usc.edu </span>
             <div className='images'>
                 <a href="https://www.instagram.com/usc.arc/" target='_blank' rel='noreferrer'>
                     <img src={insta} alt = "instagram" className='socials'></img>
@@ -19,7 +19,7 @@ const Footer = () => {
                 </a>
                 {/*<a href="" target='_blank' rel='noreferrer'>
                     <img src={youtube} alt = "instagram" className='socials'></img>
-    </a>*/}
+                </a>*/}
             </div>
         </footer>
     ); 
