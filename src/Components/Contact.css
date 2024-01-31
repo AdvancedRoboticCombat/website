@@ -46,8 +46,7 @@
     color: white;
     border: none; 
     border-radius: 0.5rem;
-    /*background: rgb(50, 50, 50);*/
-    background-color: green;
+    background: rgb(50, 50, 50);
 }
 
 .submitBtn {
