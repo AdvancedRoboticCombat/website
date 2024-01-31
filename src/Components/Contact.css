@@ -1,5 +1,4 @@
 #contactPage {
-    min-height: calc(100vh - 4rem);
     width: 65rem;
     max-width: 80rem; /*needed to increase this for alignment*/
     margin: 0 auto;
@@ -60,16 +59,4 @@
 .submitBtn:hover {
     background-color: rgb(200, 200, 200);
     cursor: pointer;
-}
-
-.links {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.link {
-    object-fit: cover;
-    height: 3rem;
-    width: 3rem;
-    margin: 0 0.75rem;
 }

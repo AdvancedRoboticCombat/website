@@ -61,14 +61,11 @@ const Gallery = () => {
                     {dataSlider.map((obj, index) => {
                         return (
                             <div key={obj.id} className={slideIndex === index + 1? "slide active-anim" : "nothing"}>
-                                {/*<img src={process.env.PUBLIC_URL + '/Images/img${index+1}.jpg'}></img>*/}
                                 {obj.type ? 
                                     (<img src={obj.img}/> 
                                     ) : 
-                                    (/*<video controls>
-                                        <source src={obj.vid} type="video/mp4"/>
-                                    </video>*/
-                                    <VideoContainer src={obj.vid} type="video/mp4" isActive={slideIndex === index + 1} />)
+                                    (<VideoContainer src={obj.vid} type="video/mp4" isActive={slideIndex === index + 1} />
+                                    )
                                 }
                             </div>
                         )

@@ -14,7 +14,7 @@
     z-index: 3; 
 }
 
-.contact {
+.contactEmail {
     display: flex; 
     flex-direction: column;
     justify-content: center;

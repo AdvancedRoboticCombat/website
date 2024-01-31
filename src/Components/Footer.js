@@ -9,7 +9,7 @@ import github from "../Images/github2.png";
 const Footer = () => {
     return (
         <footer className="footer">
-            <span className="contact">Email: dqle@usc.edu </span>
+            <span className="contactEmail">Email: dqle@usc.edu </span>
             <div className='images'>
                 <a href="https://www.instagram.com/usc.arc/" target='_blank' rel='noreferrer'>
                     <img src={insta} alt = "instagram" className='socials'></img>
