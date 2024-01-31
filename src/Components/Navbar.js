@@ -18,9 +18,9 @@ const Navbar = () => {
                 <Link activeClass='active' to='galleryComp' spy={true} smooth={true} offset={-100} duration={1000} className="desktopMenuListItem">Gallery</Link>
                 <Link activeClass='active' to='sponsors' spy={true} smooth={true} offset={-100} duration={1000} className="desktopMenuListItem">Sponsors</Link>
             </div>
-            <Link activeClass='active' to='footer' spy={true} smooth={true} offset={-100} duration={1000}>
+            <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-100} duration={1000}>
                 <button className = "desktopMenuBtn">
-                    <img src={contact} alt="contact" className="desktopMenuImg"/>Contact Us
+                    <img src={contact} alt="Contact" className="desktopMenuImg"/>Contact Us
                 </button>
             </Link>
         </nav>

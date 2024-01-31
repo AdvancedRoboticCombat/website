@@ -6,6 +6,7 @@ import People from "./Components/People.js";
 import Footer from "./Components/Footer.js"; 
 import Gallery from "./Components/Gallery.js"; 
 import Sponsors from "./Components/Sponsors.js";
+import Contact from "./Components/Contact.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <People></People>
       <Gallery></Gallery>
       <Sponsors></Sponsors>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
