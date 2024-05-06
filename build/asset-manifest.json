@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.c15c3543.css",
-    "main.js": "/static/js/main.7e042afa.js",
+    "main.js": "/static/js/main.e596f771.js",
     "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
     "static/media/B4LA.mp4": "/static/media/B4LA.ef6d6cf6abe84e42115d.mp4",
+    "static/media/B4LA_trimmed.mp4": "/static/media/B4LA_trimmed.79e181d4c4aefb15fa7e.mp4",
+    "static/media/sac_fullvid.mp4": "/static/media/sac_fullvid.7f5b6794504c68e07095.mp4",
     "static/media/bot.png": "/static/media/bot.4802d0a22932cb7751b5.png",
+    "static/media/sac_teamphoto.png": "/static/media/sac_teamphoto.b8fb4e4deba4cf34232b.png",
     "static/media/group2.png": "/static/media/group2.a7f1e5f636c5163395ca.png",
     "static/media/fight.png": "/static/media/fight.e1918d38ceb193135cba.png",
     "static/media/wires.png": "/static/media/wires.e195c9946c66d333d77b.png",
@@ -24,11 +27,11 @@
     "static/media/instagram.png": "/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/index.html",
     "main.c15c3543.css.map": "/static/css/main.c15c3543.css.map",
-    "main.7e042afa.js.map": "/static/js/main.7e042afa.js.map",
+    "main.e596f771.js.map": "/static/js/main.e596f771.js.map",
     "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c15c3543.css",
-    "static/js/main.7e042afa.js"
+    "static/js/main.e596f771.js"
   ]
 }
