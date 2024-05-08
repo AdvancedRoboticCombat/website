@@ -18,9 +18,9 @@ const Works = () => {
                     <img src={Queen} alt="p1" className="worksImg"/>
                     <div className="pText"> 
                         <div className='text'> Features include a vertical spinner and 3 configurations for different opponents. 
-                        Recently, Queen of Hearts competed in the hobbyweight division of the Battle for Los Angeles tournament. 
-                        The robot performed impeccably in the first half of its debut match, but electrical failures crippled it for the rest of the tournament. 
-                        Queen of Hearts will fight again with reliability upgrades soon.
+                        Recently, Queen of Hearts competed in the hobbyweight division of the Sacramento Bot Battles tournament. 
+                        We had an amazing run, outcompeting teams from other universities including UC Berkeley, UC Merced, and more. 
+                        The Queen of Hearts won the Most Destructive award, and finished 4th overall. 
                         </div>
                     </div>
                 </div>
