@@ -12,7 +12,7 @@ const intro = () => {
                     <span className="introName">'SC ARC <br/></span>
                     the Advanced Robotic Combat Design Team of USC
                 </span>
-                <p className="introPara"><br/>Educating students in various fields of engineering and business through combat robotics.</p>
+                <p className="introPara"><br/>Educating students in various fields of engineering and business through combat robotics. </p>
                 <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={1000}>
                     <button className="btn">
                         About Us
