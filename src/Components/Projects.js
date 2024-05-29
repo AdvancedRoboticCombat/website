@@ -11,7 +11,7 @@ const Works = () => {
         <section id='works'>
             <h2 className="worksTitle">Our Projects</h2>
             <span className="worksDesc">The team has been working on two robots. We've designed and built Queen of Hearts (left), competing with it at a recent tournament in SoCal. 
-            We've also been working on our second robot and are awaiting further funding to complete it. See more at our Instagram! </span>
+            We've also been working on our second robot and are awaiting further funding to complete it. See more on our Instagram! </span>
             
             <div className="worksImgs">
                 <div className="project">
